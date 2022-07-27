@@ -70,5 +70,11 @@ Follow the following steps for your contribution
 
 **Client:** React, EmailJS
 
+## Contributors
+
+<a href="https://github.com/ITACHI0002/react-js-portfolio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ITACHI0002/react-js-portfolio" />
+</a>
+
 
 
