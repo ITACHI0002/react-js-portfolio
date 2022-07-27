@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <h1 className="about-title">About Me</h1>
-                <p className="about-sub">I'am a 15 years old enthusiastic learner and programmer from Nepal.</p>
+                <p className="about-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
                 <p className="about-desc"> I'm a highly ambitious and passionate person.I'm currently a junior at <br/>a high school. I've gained skills in python and javascript. My goal is to <br/>become a <b> Full Stack Developer </b> and a <b> Data Scientist </b> and land a job in <br/> 
                 <p className="G"><b>G</b></p><p className="O"><b>O</b></p><p className="o"><b>O</b></p><p className="g"><b>G</b></p><p className="L"><b>L</b></p><p className="E"><b>E</b></p>.
                 </p>
