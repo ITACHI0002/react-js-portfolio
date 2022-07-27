@@ -10,7 +10,7 @@ const Contact = () => {
        const [done, setDone] = useState(false)
        const handleSubmit = (e) => {
         e.preventDefault()
-        emailjs.sendForm('service_k3ndrvo', 'template_auhe0rs', formRef.current, 'HExiD80Mw_itJvcSH')
+        emailjs.sendForm('service_id', 'template_id', formRef.current, 'public_key')
             .then((result) => {
                 console.log(result.text);
                 setDone(true)
@@ -28,10 +28,10 @@ const Contact = () => {
                     <h1 className="c-title">Reach out to me</h1>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <img src={Mail} alt="" className="c-icon" />pratapgautam4321@gmail.com
+                            <img src={Mail} alt="" className="c-icon" />//your email
                         </div>
                         <div className='c-info-item'>
-                            <img src={Location} alt="" className="c-icon" />Khairahani-6, Jamauli, Chitwan Nepal
+                            <img src={Location} alt="" className="c-icon" />//your address
                         </div>
                     </div>
                 </div>
